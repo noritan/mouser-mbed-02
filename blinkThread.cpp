@@ -8,7 +8,9 @@ void blinkThread(void) {
  
     while (true) 
     {
-        led1 = !led1;
-        ThisThread::sleep_for(500);
+        led1 = 1;
+        ThisThread::sleep_for(900);
+        led1 = 0;
+        ThisThread::sleep_for(100);
     }
 }
