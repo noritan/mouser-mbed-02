@@ -5,7 +5,7 @@ Thread blinkThreadHandle;
  
 int main(void) {
  
-    printf("Started System\n");
+    printf("Started System!!!\n");
  
     blinkThreadHandle.start(blinkThread);
 }
